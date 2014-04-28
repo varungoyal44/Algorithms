@@ -1,0 +1,11 @@
+Problem 3 Part 1:
+findings:
+
+the KNAP-IND-REC algo only provides us with the best cost 
+and not the set of items that should be stolen!
+Also it takes exponential time, thus the program "virtually"
+hangs when a list of only 50 items is provided to it.
+
+On the other hand KNAPSACK-INDIVISIBLE gives us the best cost very
+quickly. O(n.W)
+
